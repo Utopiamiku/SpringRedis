@@ -1,0 +1,40 @@
+2020-09-13 08:14:12  [ main:0 ] - [ DEBUG ]  ==========================准备生成文件...==========================
+2020-09-13 08:14:12  [ main:485 ] - [ WARN ]  configuration key 'file.resource.loader.unicode' has been deprecated in favor of 'resource.loader.file.unicode'
+2020-09-13 08:14:12  [ main:485 ] - [ WARN ]  configuration key 'file.resource.loader.class' has been deprecated in favor of 'resource.loader.file.class'
+2020-09-13 08:14:12  [ main:489 ] - [ DEBUG ]  创建目录： [D:\develop\10_\01\SpringRedis/src/main/java\com\miku\xml]
+2020-09-13 08:14:12  [ main:490 ] - [ DEBUG ]  Initializing Velocity, Calling init()...
+2020-09-13 08:14:12  [ main:490 ] - [ DEBUG ]  Starting Apache Velocity v2.2
+2020-09-13 08:14:12  [ main:493 ] - [ DEBUG ]  Default Properties resource: org/apache/velocity/runtime/defaults/velocity.properties
+2020-09-13 08:14:12  [ main:501 ] - [ DEBUG ]  ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2020-09-13 08:14:12  [ main:502 ] - [ DEBUG ]  initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl) with class java.util.Collections$SynchronizedMap cache map.
+2020-09-13 08:14:12  [ main:503 ] - [ DEBUG ]  Loaded System Directive: org.apache.velocity.runtime.directive.Stop
+2020-09-13 08:14:12  [ main:504 ] - [ DEBUG ]  Loaded System Directive: org.apache.velocity.runtime.directive.Define
+2020-09-13 08:14:12  [ main:505 ] - [ DEBUG ]  Loaded System Directive: org.apache.velocity.runtime.directive.Break
+2020-09-13 08:14:12  [ main:505 ] - [ DEBUG ]  Loaded System Directive: org.apache.velocity.runtime.directive.Evaluate
+2020-09-13 08:14:12  [ main:506 ] - [ DEBUG ]  Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2020-09-13 08:14:12  [ main:507 ] - [ DEBUG ]  Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2020-09-13 08:14:12  [ main:508 ] - [ DEBUG ]  Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2020-09-13 08:14:12  [ main:509 ] - [ DEBUG ]  Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2020-09-13 08:14:12  [ main:529 ] - [ DEBUG ]  Created '20' parsers.
+2020-09-13 08:14:12  [ main:544 ] - [ DEBUG ]  "velocimacro.library.path" is not set. Trying default library: velocimacros.vtl
+2020-09-13 08:14:12  [ main:544 ] - [ DEBUG ]  Could not load resource 'velocimacros.vtl' from ResourceLoader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2020-09-13 08:14:12  [ main:545 ] - [ DEBUG ]  Default library velocimacros.vtl not found. Trying old default library: VM_global_library.vm
+2020-09-13 08:14:12  [ main:545 ] - [ DEBUG ]  Could not load resource 'VM_global_library.vm' from ResourceLoader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2020-09-13 08:14:12  [ main:545 ] - [ DEBUG ]  Old default library VM_global_library.vm not found.
+2020-09-13 08:14:12  [ main:545 ] - [ DEBUG ]  allowInline = true: VMs can be defined inline in templates
+2020-09-13 08:14:12  [ main:545 ] - [ DEBUG ]  allowInlineToOverride = false: VMs defined inline may NOT replace previous VM definitions
+2020-09-13 08:14:12  [ main:545 ] - [ DEBUG ]  allowInlineLocal = false: VMs defined inline will be global in scope if allowed.
+2020-09-13 08:14:12  [ main:545 ] - [ DEBUG ]  autoload off: VM system will not automatically reload global library macros
+2020-09-13 08:14:12  [ main:569 ] - [ DEBUG ]  ResourceManager: found /templates/entity.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2020-09-13 08:14:12  [ main:586 ] - [ DEBUG ]  模板:/templates/entity.java.vm;  文件:D:\develop\10_\01\SpringRedis/src/main/java\com\miku\entity\TbUser.java
+2020-09-13 08:14:12  [ main:587 ] - [ DEBUG ]  ResourceManager: found /templates/mapper.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2020-09-13 08:14:12  [ main:588 ] - [ DEBUG ]  模板:/templates/mapper.java.vm;  文件:D:\develop\10_\01\SpringRedis/src/main/java\com\miku\mapper\TbUserMapper.java
+2020-09-13 08:14:12  [ main:590 ] - [ DEBUG ]  ResourceManager: found /templates/mapper.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2020-09-13 08:14:12  [ main:591 ] - [ DEBUG ]  模板:/templates/mapper.xml.vm;  文件:D:\develop\10_\01\SpringRedis/src/main/java\com\miku\xml\TbUserMapper.xml
+2020-09-13 08:14:12  [ main:592 ] - [ DEBUG ]  ResourceManager: found /templates/service.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2020-09-13 08:14:12  [ main:593 ] - [ DEBUG ]  模板:/templates/service.java.vm;  文件:D:\develop\10_\01\SpringRedis/src/main/java\com\miku\service\TbUserService.java
+2020-09-13 08:14:12  [ main:595 ] - [ DEBUG ]  ResourceManager: found /templates/serviceImpl.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2020-09-13 08:14:12  [ main:595 ] - [ DEBUG ]  模板:/templates/serviceImpl.java.vm;  文件:D:\develop\10_\01\SpringRedis/src/main/java\com\miku\service\impl\TbUserServiceImpl.java
+2020-09-13 08:14:12  [ main:597 ] - [ DEBUG ]  ResourceManager: found /templates/controller.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2020-09-13 08:14:12  [ main:598 ] - [ DEBUG ]  模板:/templates/controller.java.vm;  文件:D:\develop\10_\01\SpringRedis/src/main/java\com\miku\controller\TbUserController.java
+2020-09-13 08:14:12  [ main:598 ] - [ DEBUG ]  ==========================文件生成完成！！！==========================
